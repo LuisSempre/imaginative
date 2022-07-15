@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '../images/logos/logo.png'
-export function Logo(props) {
-  return <Image src={logo}  width={200}  height={32} alt="Picture of the author" />
+import logotipo from '../images/logos/logotipo.png'
+export function Logo() {
+  return <Image src={logotipo} width={200} height={32} alt="Logo" />
 }
