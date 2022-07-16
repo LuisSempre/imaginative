@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { CallToAction } from '@/components/CallToAction'
+import { Time } from '@/components/Time'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -27,7 +27,7 @@ export default function Home() {
         <PrimaryFeatures />
         <Tecnology />
         <SecondaryFeatures />
-        <CallToAction />
+        <Time />
         <Testimonials />
         <Contact />
         <Faqs />

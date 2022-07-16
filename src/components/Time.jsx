@@ -5,7 +5,7 @@ import avatarBackend from '@/images/avatars/Guto.png'
 import avatarFrontend from '@/images/avatars/Luis.png'
 import { SiGithub, SiTwitter } from 'react-icons/si'
 
-export function CallToAction() {
+export function Time() {
   return (
     <section
       id="get-started-today"
