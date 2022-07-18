@@ -10,10 +10,11 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Relatório',
+    summary:
+      'Mantenha-se a par das coisas com recursos de relatórios sempre atualizados.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Falamos sobre reportagens na seção acima, mas precisávamos de três itens aqui, então mencioná-los mais uma vez para a posteridade.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -44,11 +45,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Inventário',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Nunca perca o controle do que está em estoque com rastreamento de inventário preciso.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Não oferecemos isso como parte de nosso software, mas essa afirmação é indiscutivelmente verdadeira. O rastreamento de inventário preciso ajudaria você com certeza.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,11 +73,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Contatos',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Organize todos os seus contatos, provedores de serviços e faturas em um só lugar.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Isso também não é realmente um recurso, é apenas um conselho amigável. Definitivamente, recomendamos que você faça isso, você se sentirá realmente organizado e profissional.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (

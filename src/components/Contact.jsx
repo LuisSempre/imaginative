@@ -1,5 +1,7 @@
 import { Container } from '@/components/Container'
-
+import Image from 'next/future/image'
+import backgroundImage from '@/images/background-call-to-action.jpg'
+import { Button } from '@/components/Button'
 function SwirlyDoodle({ className }) {
   return (
     <svg
@@ -20,7 +22,7 @@ function SwirlyDoodle({ className }) {
 export function Contact() {
   return (
     <section
-      id="pricing"
+      id="contato"
       aria-label="Pricing"
       className="py-20 bg-black sm:py-32"
     >
@@ -29,13 +31,13 @@ export function Contact() {
           <h2 className="text-3xl tracking-tight text-white font-display sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
+              <span className="relative">Preços simples,</span>
             </span>{' '}
-            for everyone.
+            para todos.{' '}
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Não importa o tamanho da sua empresa, nosso software funcionam bem
+            para você.
           </p>
         </div>
 
@@ -45,7 +47,7 @@ export function Contact() {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
                 <h3 className="text-2xl font-medium text-gray-900">
-                  Send us a message
+                  Envie-nos uma mensagem
                 </h3>
                 <form
                   action="#"
@@ -57,7 +59,7 @@ export function Contact() {
                       htmlFor="first-name"
                       className="block text-sm font-medium text-gray-900"
                     >
-                      First name
+                      Nome
                     </label>
                     <div className="mt-1">
                       <input
@@ -74,7 +76,7 @@ export function Contact() {
                       htmlFor="last-name"
                       className="block text-sm font-medium text-gray-900"
                     >
-                      Last name
+                      Sobrenome
                     </label>
                     <div className="mt-1">
                       <input
@@ -109,13 +111,13 @@ export function Contact() {
                         htmlFor="phone"
                         className="block text-sm font-medium text-gray-900"
                       >
-                        Phone
+                        Telefone
                       </label>
                       <span
                         id="phone-optional"
                         className="text-sm text-gray-500"
                       >
-                        Optional
+                        Opcional
                       </span>
                     </div>
                     <div className="mt-1">
@@ -134,7 +136,7 @@ export function Contact() {
                       htmlFor="subject"
                       className="block text-sm font-medium text-gray-900"
                     >
-                      Subject
+                      Assunto
                     </label>
                     <div className="mt-1">
                       <input
@@ -151,10 +153,10 @@ export function Contact() {
                         htmlFor="message"
                         className="block text-sm font-medium text-gray-900"
                       >
-                        Message
+                        Messagem
                       </label>
                       <span id="message-max" className="text-sm text-gray-500">
-                        Max. 500 characters
+                        Maximo de 500 caracteres
                       </span>
                     </div>
                     <div className="mt-1">
@@ -169,12 +171,22 @@ export function Contact() {
                     </div>
                   </div>
                   <div className="sm:col-span-2 sm:flex sm:justify-end">
-                    <button
-                      type="submit"
-                      className="inline-flex items-center justify-center w-full px-6 py-3 mt-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
-                    >
-                      Submit
-                    </button>
+                    <section className="relative overflow-hidden bg-blue-600 rounded-full">
+                      <Image
+                        className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-none"
+                        src={backgroundImage}
+                        alt=""
+                        width={500}
+                        height={500}
+                        unoptimized
+                      />
+                      <Button
+                        className="relative px-12 py-4 text-xl bg-transparent hover:bg-transparent"
+                        href="#contato"
+                      >
+                        Enviar
+                      </Button>
+                    </section>
                   </div>
                 </form>
               </div>

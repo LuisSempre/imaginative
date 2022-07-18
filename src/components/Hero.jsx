@@ -8,6 +8,7 @@ import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
+import backgroundImage from '@/images/background-call-to-action.jpg'
 
 export function Hero() {
   return (
@@ -31,13 +32,25 @@ export function Hero() {
         Desenvolvimento de aplicativos web e mobile
       </p>
       <div className="flex justify-center mt-10 gap-x-6">
-        <Button className="px-12 py-4 text-xl bg-black" href="#contato">
-          Entre em contato
-        </Button>
+        <section
+          className="relative overflow-hidden bg-blue-600 rounded-full"
+        >
+          <Image
+            className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-none"
+            src={backgroundImage}
+            alt=""
+            width={500}
+            height={500}
+            unoptimized
+          />
+            <Button className="relative px-12 py-4 text-xl bg-transparent hover:bg-transparent" href="#contato">
+              Entre em contato
+            </Button>
+        </section>
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="text-base font-display text-slate-900">
-         Confiado por empresas inovadoras
+          Confiado por empresas inovadoras
         </p>
         <ul
           role="list"
