@@ -1,9 +1,13 @@
 import Image from 'next/future/image'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
-import avatarBackend from '@/images/avatars/Guto.png'
+import avatarFullStack from '@/images/avatars/Guto.png'
 import avatarFrontend from '@/images/avatars/Luis.png'
-import { SiGithub, SiTwitter } from 'react-icons/si'
+import avatarBackend from '@/images/avatars/Carlos.png'
+import avatarDesign from '@/images/avatars/Maria.png'
+import avatarCustomer from '@/images/avatars/Ana.png'
+import avatarComercial from '@/images/avatars/Sheila.png'
+import { SiLinkedin, SiTwitter } from 'react-icons/si'
 
 export function Time() {
   return (
@@ -35,7 +39,7 @@ export function Time() {
                     width={0}
                     height={0}
                     className="w-16 h-16 rounded-full"
-                    src={avatarBackend}
+                    src={avatarFullStack}
                     unoptimized
                     alt="Avatar"
                   />
@@ -45,16 +49,18 @@ export function Time() {
                     <p className="text-lg font-medium text-gray-100">
                       Gustavo Henrique
                     </p>
-                    <p className="text-sm text-white truncate">Backend</p>
+                    <p className="text-sm text-white truncate">
+                      CEO / FullStack
+                    </p>
                   </a>
                 </div>
                 <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
                   <div className="relative flex items-center justify-end space-x-3">
-                  <a href="#_" className="fill-white">
+                    <a href="#_" className="fill-white">
                       <SiTwitter className="w-8 h-8" />
                     </a>
                     <a href="#_" className="fill-white">
-                      <SiGithub className="w-8 h-8" />
+                      <SiLinkedin className="w-8 h-8" />
                     </a>
                   </div>
                 </div>
@@ -77,16 +83,146 @@ export function Time() {
                     <p className="text-lg font-medium text-gray-100">
                       Luis Lucas
                     </p>
-                    <p className="text-sm text-white truncate">Frontend</p>
+                    <p className="text-sm text-white truncate">
+                      CTO / Frontend
+                    </p>
                   </a>
                 </div>
                 <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
                   <div className="relative flex items-center justify-end space-x-3">
-                  <a href="#_" className="fill-white">
+                    <a href="#_" className="fill-white">
                       <SiTwitter className="w-8 h-8" />
                     </a>
                     <a href="#_" className="fill-white">
-                      <SiGithub className="w-8 h-8" />
+                      <SiLinkedin className="w-8 h-8" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative overflow-hidden border border-white rounded-lg">
+              <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-transparent rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <Image
+                    width={0}
+                    height={0}
+                    className="w-16 h-16 rounded-full"
+                    src={avatarBackend}
+                    unoptimized
+                    alt="Avatar"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <a href="#_" className="focus:outline-none">
+                    <p className="text-lg font-medium text-gray-100">
+                      Carlos Rocha
+                    </p>
+                    <p className="text-sm text-white truncate">Backend</p>
+                  </a>
+                </div>
+                <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
+                  <div className="relative flex items-center justify-end space-x-3">
+                    <a href="#_" className="fill-white">
+                      <SiTwitter className="w-8 h-8" />
+                    </a>
+                    <a href="#_" className="fill-white">
+                      <SiLinkedin className="w-8 h-8" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative overflow-hidden border border-white rounded-lg">
+              <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-transparent rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <Image
+                    width={0}
+                    height={0}
+                    className="w-16 h-16 rounded-full"
+                    src={avatarDesign}
+                    unoptimized
+                    alt="Avatar"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <a href="#_" className="focus:outline-none">
+                    <p className="text-lg font-medium text-gray-100">
+                      Maria Oliveira
+                    </p>
+                    <p className="text-sm text-white truncate">UI/UX Design</p>
+                  </a>
+                </div>
+                <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
+                  <div className="relative flex items-center justify-end space-x-3">
+                    <a href="#_" className="fill-white">
+                      <SiTwitter className="w-8 h-8" />
+                    </a>
+                    <a href="#_" className="fill-white">
+                      <SiLinkedin className="w-8 h-8" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative overflow-hidden border border-white rounded-lg">
+              <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-transparent rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <Image
+                    width={0}
+                    height={0}
+                    className="w-16 h-16 rounded-full"
+                    src={avatarComercial}
+                    unoptimized
+                    alt="Avatar"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <a href="#_" className="focus:outline-none">
+                    <p className="text-lg font-medium text-gray-100">
+                      Sheila de Souza
+                    </p>
+                    <p className="text-sm text-white truncate">Comercial</p>
+                  </a>
+                </div>
+                <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
+                  <div className="relative flex items-center justify-end space-x-3">
+                    <a href="#_" className="fill-white">
+                      <SiTwitter className="w-8 h-8" />
+                    </a>
+                    <a href="#_" className="fill-white">
+                      <SiLinkedin className="w-8 h-8" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>{' '}
+            <div className="relative overflow-hidden border border-white rounded-lg">
+              <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-transparent rounded-lg">
+                <div className="flex-shrink-0 mr-4">
+                  <Image
+                    width={0}
+                    height={0}
+                    className="w-16 h-16 rounded-full"
+                    src={avatarCustomer}
+                    unoptimized
+                    alt="Avatar"
+                  />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <a href="#_" className="focus:outline-none">
+                    <p className="text-lg font-medium text-gray-100">
+                      Ana Dias
+                    </p>
+                    <p className="text-sm text-white truncate">Customer Sucess</p>
+                  </a>
+                </div>
+                <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
+                  <div className="relative flex items-center justify-end space-x-3">
+                    <a href="#_" className="fill-white">
+                      <SiTwitter className="w-8 h-8" />
+                    </a>
+                    <a href="#_" className="fill-white">
+                      <SiLinkedin className="w-8 h-8" />
                     </a>
                   </div>
                 </div>
