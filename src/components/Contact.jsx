@@ -170,8 +170,8 @@ export function Contact() {
                       />
                     </div>
                   </div>
-                  <div className="sm:col-span-2 sm:flex sm:justify-end">
-                    <section className="relative overflow-hidden bg-blue-600 rounded-full">
+                  <div className="flex justify-center sm:col-span-2 sm:justify-end">
+                    <div className="relative overflow-hidden rounded-full">
                       <Image
                         className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-none"
                         src={backgroundImage}
@@ -186,7 +186,7 @@ export function Contact() {
                       >
                         Enviar
                       </Button>
-                    </section>
+                    </div>
                   </div>
                 </form>
               </div>
