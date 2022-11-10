@@ -7,6 +7,7 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import background from '@/images/background-faqs.jpg'
 
 const features = [
   {
@@ -15,7 +16,7 @@ const features = [
       'Mantenha-se a par das coisas com recursos de relatórios sempre atualizados.',
     description:
       'Falamos sobre reportagens na seção acima, mas precisávamos de três itens aqui, então mencioná-los mais uma vez para a posteridade.',
-    image: screenshotProfitLoss,
+    image: background ,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -50,7 +51,7 @@ const features = [
       'Nunca perca o controle do que está em estoque com rastreamento de inventário preciso.',
     description:
       'Não oferecemos isso como parte de nosso software, mas essa afirmação é indiscutivelmente verdadeira. O rastreamento de inventário preciso ajudaria você com certeza.',
-    image: screenshotInventory,
+    image: background ,
     icon: function InventoryIcon() {
       return (
         <>
@@ -78,7 +79,7 @@ const features = [
       'Organize todos os seus contatos, provedores de serviços e faturas em um só lugar.',
     description:
       'Isso também não é realmente um recurso, é apenas um conselho amigável. Definitivamente, recomendamos que você faça isso, você se sentirá realmente organizado e profissional.',
-    image: screenshotContacts,
+    image: background ,
     icon: function ContactsIcon() {
       return (
         <>

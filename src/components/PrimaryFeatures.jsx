@@ -9,31 +9,33 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import background from '@/images/background-faqs.jpg'
+
 
 const features = [
   {
     title: 'Desenvolvimento Web',
     description:
       'Crie o aplicativo perfeito para manter seus negócios avançando.',
-    image: screenshotPayroll,
+    image: background,
   },
   {
     title: 'Desenvolvimento Mobile',
     description:
       'Envie seu aplicativo móvel para Android e iOS para o mercado de uma só vez com a tecnologia React Native.',
-    image: screenshotExpenses,
+    image: background,
   },
   {
     title: 'Design de Produto',
     description:
       'Pense bonito - certifique-se de que cada canto do seu aplicativo tenha uma aparência incrível graças aos nossos designers observadores.',
-    image: screenshotVatReturns,
+    image: background,
   },
   {
     title: 'Desenvolvimento MVP',
     description:
       'Envie seu MVP para o mercado sem gastar meses montando uma equipe de desenvolvimento interna para sua startup.',
-    image: screenshotReporting,
+    image: background,
   },
 ]
 

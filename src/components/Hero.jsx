@@ -50,23 +50,23 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="text-base font-display text-slate-900">
-          Confiado por empresas inovadoras
+          {/* Confiado por empresas inovadoras */}
         </p>
         <ul
           role="list"
           className="flex items-center justify-center mt-8 gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
           {[
-            [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
-            ],
+            // [
+            //   { name: 'Transistor', logo: logoTransistor },
+            //   { name: 'Tuple', logo: logoTuple },
+            //   { name: 'StaticKit', logo: logoStaticKit },
+            // ],
+            // [
+            //   { name: 'Mirage', logo: logoMirage },
+            //   { name: 'Laravel', logo: logoLaravel },
+            //   { name: 'Statamic', logo: logoStatamic },
+            // ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
               <ul

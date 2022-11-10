@@ -6,6 +6,7 @@ import avatarImage2 from '@/images/avatars/avatar-2.png'
 import avatarImage3 from '@/images/avatars/avatar-3.png'
 import avatarImage4 from '@/images/avatars/avatar-4.png'
 import avatarImage5 from '@/images/avatars/avatar-5.png'
+import Anonymous from '@/images/avatars/anonymous.png'
 
 const testimonials = [
   [
@@ -13,18 +14,18 @@ const testimonials = [
       content:
         'Imaginative é tão fácil de usar que não posso deixar de me perguntar se ele está realmente fazendo as coisas que o governo espera que eu faça.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
-        image: avatarImage1,
+        name: 'Anonymous',
+        role: 'Client',
+        image: Anonymous,
       },
     },
     {
       content:
         'Estou tentando encontrar alguém para me apoiar, estou com muitos problemas agora e eles estão dizendo que tem algo a ver com meus livros. Por favor, volte para mim imediatamente.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Anonymous',
+        role: 'Client',
+        image: Anonymous,
       },
     },
   ],
@@ -33,18 +34,18 @@ const testimonials = [
       content:
         'A melhor parte da Imaginative é que toda vez que pago aos meus funcionários, meu saldo bancário não cai como antes. Estou ansioso para gastar esse dinheiro extra quando descobrir por que meu cartão está sendo recusado.',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
-        image: avatarImage5,
+        name: 'Anonymous',
+        role: 'Client',
+        image: Anonymous,
       },
     },
     {
       content:
         'Há tantas coisas que eu tinha que fazer com meu software antigo que simplesmente não faço com o Imaginative. Suspeito, mas não posso dizer que não amo.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
-        image: avatarImage2,
+        name: 'Anonymous',
+        role: 'Client',
+        image: Anonymous,
       },
     },
   ],
@@ -53,18 +54,18 @@ const testimonials = [
       content:
         'Eu costumava ter que remeter impostos para a UE e, com a Imaginative, de alguma forma, não preciso mais fazer isso. Mas estou nervoso para viajar para lá agora.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
-        image: avatarImage3,
+        name: 'Anonymous',
+        role: 'Client',
+        image: Anonymous,
       },
     },
     {
       content:
         'Este é o quarto e-mail que envio para sua equipe de suporte. Estou literalmente preso por fraude fiscal. Por favor, responda seus malditos e-mails, isso é importante.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Anonymous',
+        role: 'Client',
+        image: Anonymous,
       },
     },
   ],
