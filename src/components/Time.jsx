@@ -83,9 +83,7 @@ export function Time() {
                     <p className="text-lg font-medium text-gray-100">
                       Luis Lucas
                     </p>
-                    <p className="text-sm text-white truncate">
-                      CTO / Frontend
-                    </p>
+                    <p className="text-sm text-white truncate">Frontend</p>
                   </a>
                 </div>
                 <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
@@ -213,7 +211,9 @@ export function Time() {
                     <p className="text-lg font-medium text-gray-100">
                       Ana Dias
                     </p>
-                    <p className="text-sm text-white truncate">Customer Sucess</p>
+                    <p className="text-sm text-white truncate">
+                      Customer Sucess
+                    </p>
                   </a>
                 </div>
                 <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
